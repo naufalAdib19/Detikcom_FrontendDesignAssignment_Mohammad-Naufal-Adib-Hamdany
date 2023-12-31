@@ -1,0 +1,31 @@
+.hamburger-container > div:not(.active) div {
+    width: 13px;
+    height: 13px;
+}
+
+.hamburger-container {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.hamburger-container > div.active div {
+    width: 30px;
+    height: 3px;
+}
+
+.hamburger-container > div.active {
+    row-gap: 17px;
+    margin-left: 10px;
+}
+
+
+.hamburger-container > div.active div:first-child {
+    transform: rotate(45deg);
+    transform-origin: top left;
+}
+
+.hamburger-container > div.active div:last-child {
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+}

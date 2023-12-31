@@ -26,7 +26,8 @@ const Dashboard = () => {
     <div className="about-section d-flex flex-column align-items-center py-5">
       <About/>
       <Button props={{
-          string: 'Daftar Sekarang'
+          string: 'Daftar Sekarang',
+          url: 'https://event.detik.com/'
         }}/>
     </div>
     <div className='sponsorship-section py-5 mb-5 overflow-hidden'>
@@ -43,7 +44,8 @@ const Dashboard = () => {
         <div className='text-center'>
           <div className='position-relative z-2'>
           <Button props={{
-            string: 'Lihat Lebih Banyak'
+            string: 'Lihat Lebih Banyak',
+            url: 'https://www.detik.com/search/searchall?query=fun+run&siteid=2'
           }}/>
           </div>
           

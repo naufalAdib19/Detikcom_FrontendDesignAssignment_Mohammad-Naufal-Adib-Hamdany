@@ -3,6 +3,9 @@ import { HamburgerMenu } from '../atoms/HamburgerMenu'
 import './NavbarStyle.css'
 import { useMediaQuery } from 'react-responsive'
 import { NavigationMenu } from '../atoms/NavigationMenu'
+import DropDown from '../moleculs/DropDown'
+import { Context } from '../../helper/context'
+import { useContext } from 'react'
 
 const Navbar = () => {
     const styles = {
@@ -13,6 +16,8 @@ const Navbar = () => {
     const isDekstop = useMediaQuery({
         query: '(min-width: 768px)'
     })
+
+    const { isNavbarActive } = useContext(Context)
 
     return(
         <div className=''>
@@ -31,6 +36,12 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            <div className='position-fixed z-3 w-100 px-4 navbar-menu-dropdown'>
+                {
+                    isNavbarActive ? <DropDown/> : ''
+                }
+            </div>
+            
         </div>
 
     )

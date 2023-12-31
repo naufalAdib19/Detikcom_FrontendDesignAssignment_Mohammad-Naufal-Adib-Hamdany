@@ -18,3 +18,7 @@
 .navbar-container {
     z-index: 50;
 }
+
+.navbar-menu-dropdown {
+    top: 120px;
+}
