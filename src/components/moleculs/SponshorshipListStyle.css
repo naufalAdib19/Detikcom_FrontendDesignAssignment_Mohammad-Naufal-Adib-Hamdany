@@ -1,0 +1,28 @@
+.sponsor-container div > img {
+    width: 216px;
+    height: 94px;
+}
+
+.sponsor-container > div {
+    padding: 20px;
+    background-color: white;
+}
+
+.sponsor-container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    animation: 9s slider infinite linear;
+}
+
+.sponsor-container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+@keyframes slider {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

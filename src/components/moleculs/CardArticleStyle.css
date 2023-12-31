@@ -1,0 +1,12 @@
+.card-article-container {
+    max-width: 350px;
+}
+
+.card-article-container img {
+    max-width: 100%;
+    width: auto;
+}
+
+.card-article-container p {
+    font-size: 15px;
+}

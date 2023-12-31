@@ -1,0 +1,21 @@
+.list-navigation {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li.regist-button a{
+    color: white;
+}
+
+.regist-button {
+    background-image: linear-gradient(to  right, #326CFF, #59FFB9);
+    transition-duration: 1000ms;
+}
+
+.regist-button:hover {
+    background-image: linear-gradient(to top left, #326CFF, #59FFB9);
+}

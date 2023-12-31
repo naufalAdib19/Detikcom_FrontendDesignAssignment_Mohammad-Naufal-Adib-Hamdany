@@ -1,0 +1,17 @@
+.article-type-container ul {
+    list-style: none;
+    background-image: linear-gradient(to top right, #326CFF 50%, #59FFB9);
+    margin: 0;
+    padding: 0;
+}
+
+.article-type-container ul li{
+    cursor: pointer;
+    min-width: 110px;
+    text-align: center;
+}
+
+.article-type-container ul li.active {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}

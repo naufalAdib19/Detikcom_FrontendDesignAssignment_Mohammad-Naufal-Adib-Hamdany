@@ -1,0 +1,8 @@
+.about-part-container {
+    max-width: 582px;
+    background-image: linear-gradient(to top right, #326CFF 40%, #59FFB9);
+}
+
+.about-part-container:hover {
+    background-image: linear-gradient(to top left, #326CFF 40%, #59FFB9);
+}

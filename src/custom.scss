@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    background-image: url('./assets/hero-image.png');
+    background-size: cover;
+    background-position: 85% 10%;
+    padding-top: 150px;
+}
+
+.hero-image > h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+img.logo-hero {
+    max-width: 85%;
+    width: auto;
+}
+
+.sponsorship-section {
+    background-image: linear-gradient(to top right, #326CFF 20%, #59FFB9);
+}
+
+.footer-section > div{
+    top: -80px;
+    z-index: 1;
+}
+
+$theme-colors: (
+    "dark-blue": #20409A,
+    "debug": red,
+    "white": #fff,
+    "transparent-white": rgba(255, 255, 255, 0.5),
+    "green": #28A997
+);
+
+@import 'bootstrap/scss/bootstrap.scss';

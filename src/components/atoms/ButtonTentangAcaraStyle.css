@@ -1,0 +1,9 @@
+button.button-tentang-acara {
+    background-color: #FFC73C;
+}
+
+button.button-tentang-acara:hover {
+    background-color: #FF9A3C;
+    transition-property: 'background-color';
+    transition-duration: 300ms;
+}

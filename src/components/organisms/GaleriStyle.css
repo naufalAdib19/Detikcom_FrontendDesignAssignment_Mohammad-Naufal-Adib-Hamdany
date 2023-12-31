@@ -1,0 +1,14 @@
+.photo img {
+    max-width: 100%;
+    width: auto;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    width: 22.5%;
+}
+
+.black-and-white {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}

@@ -1,0 +1,24 @@
+.map-container {
+    max-width: 480px;
+    background-image: linear-gradient(to top right, #326CFF 30%, #59FFB9);
+    height: 100%;
+}
+
+.map-container:hover {
+    background-image: linear-gradient(to top left, #326CFF 30%, #59FFB9);
+}
+
+.map-container div > img {
+    max-width: 100%;
+    width: auto;
+    transition-duration: 300ms;
+}
+
+.map-container div > img:hover {
+    transform: scale(1.25);
+    
+}
+
+.about-coontainer {
+    width: fit-content;
+}
